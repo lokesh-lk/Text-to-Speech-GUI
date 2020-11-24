@@ -5,6 +5,19 @@ import tkinter.scrolledtext as scrolledtext
 import pyttsx3
 
 
+*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+/**
+ *
+ * @lokesh lk
+*/
+
+    
 # root window
 root = Tk()
 
@@ -12,6 +25,7 @@ root.resizable(0, 0)
 root.configure(background="white")
 root.title("Text To Speak")
 
+#functions
 def speak():
     engine = pyttsx3.init()
     audio_string = text.get(1.0, END)
