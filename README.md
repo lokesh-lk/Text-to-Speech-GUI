@@ -15,7 +15,7 @@
   Importing tkinter is same as importing any other module in the Python code.
     import tkinter
   There are two main methods used on the creation of GUI,
-      Tk() 		   //m = tkinter.Tk() 
+      Tk() 		      m = tkinter.Tk() 
       mainloop()
 
 
